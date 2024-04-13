@@ -29,7 +29,6 @@ export const App = () => {
         <Link to="/cart"> Cart</Link>
         <Link to="/favorites"> Favorites</Link>
         <Link to="/register"> Register</Link>
-        <Link to="*"> Not Found </Link>
       </nav>
 
       <Routes>
