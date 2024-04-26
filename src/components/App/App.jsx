@@ -21,6 +21,7 @@ export const App = () => {
       //   color: '#010101',
       // }}
     >
+      
       <nav>
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
@@ -42,7 +43,8 @@ export const App = () => {
         <Route path="/register" element={<RegisterPage />} />
         <Route path="*" element={<NotFoundPage />} />
         <Route />
-      </Routes>
+        </Routes>
+
     </div>
   );
 };
