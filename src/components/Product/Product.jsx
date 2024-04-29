@@ -23,6 +23,7 @@ export default function Product({ item }) {
 
   return (
     <li key={id}>
+      <img src="https://via.placeholder.com/200x100" alt="" />
       <p>{productName}</p>
       <p> {FormatCurrency(productPrice)}</p>
       {quantity === 0 ? (
